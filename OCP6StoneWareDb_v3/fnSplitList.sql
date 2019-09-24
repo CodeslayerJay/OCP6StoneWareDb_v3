@@ -1,8 +1,11 @@
 --========================================
 -- FUNCTION TO SPLIT A STRING OF KEYWORDS
+-- Takes a list of comma delimited words and
+-- splits into individual pieces
+-- PARAMS: @keywords
 --=========================================
 
-CREATE FUNCTION dbo.split_list ( @keywords VARCHAR(MAX) )
+CREATE FUNCTION dbo.fnSplitList ( @keywords VARCHAR(MAX) )
 RETURNS
  @returnList TABLE ([Keyword] [nvarchar] (500))
 AS
