@@ -4,6 +4,8 @@
 -- splits into individual pieces
 -- PARAMS: @keywords
 --=========================================
+USE [OCP6StoneWareDB_V3]
+GO
 
 CREATE FUNCTION dbo.fnSplitList ( @keywords VARCHAR(MAX) )
 RETURNS
