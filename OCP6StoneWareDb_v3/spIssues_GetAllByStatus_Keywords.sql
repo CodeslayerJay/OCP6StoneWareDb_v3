@@ -6,7 +6,9 @@
 USE [OCP6StoneWareDB_V3]
 GO
 
-CREATE OR ALTER PROCEDURE spIssues_GetAllByStatus_Keywords(@status nvarchar(50) = 'Outstanding', @keywords nvarchar(MAX))
+CREATE OR ALTER PROCEDURE spIssues_GetAllByStatus_Keywords(
+		@status nvarchar(50) = 'Outstanding', 
+		@keywords nvarchar(MAX))
 AS
 BEGIN
 	SELECT * FROM VWIssueGetAll AS vw

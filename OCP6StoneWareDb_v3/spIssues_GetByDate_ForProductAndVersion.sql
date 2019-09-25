@@ -4,8 +4,12 @@
 USE [OCP6StoneWareDB_V3]
 GO
 
-CREATE OR ALTER PROCEDURE spIssues_GetByDate_ForProductAndVersion(@product_name nvarchar(50), @status nvarchar(20) = 'Outstanding',
-	@start_date date = '2010-01-01', @end_date date = null, @version numeric(2,1))
+CREATE OR ALTER PROCEDURE spIssues_GetByDate_ForProductAndVersion(
+		@product_name nvarchar(50), 
+		@status nvarchar(20) = 'Outstanding',
+		@start_date date = '2010-01-01', 
+		@end_date date = null, 
+		@version numeric(2,1))
 AS
 BEGIN
 	SET NOCOUNT ON;

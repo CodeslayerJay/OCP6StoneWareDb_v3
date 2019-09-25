@@ -4,7 +4,9 @@
 USE [OCP6StoneWareDB_V3]
 GO
 
-CREATE OR ALTER PROCEDURE spIssues_GetByStatusForProduct(@product_name nvarchar(50), @status nvarchar(20) = null)
+CREATE OR ALTER PROCEDURE spIssues_GetByStatusForProduct(
+		@product_name nvarchar(50), 
+		@status nvarchar(20) = null)
 AS
 BEGIN
 	SET NOCOUNT ON;

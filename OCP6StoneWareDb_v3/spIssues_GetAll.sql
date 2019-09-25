@@ -4,7 +4,7 @@
 USE [OCP6StoneWareDB_V3]
 GO
 
-CREATE OR ALTER PROCEDURE spIssues_GetAllByStatus(@status nvarchar(20) = 'Outstanding')
+CREATE OR ALTER PROCEDURE spIssues_GetAll(@status nvarchar(20) = 'Outstanding')
 AS
 BEGIN
 	SET NOCOUNT ON;

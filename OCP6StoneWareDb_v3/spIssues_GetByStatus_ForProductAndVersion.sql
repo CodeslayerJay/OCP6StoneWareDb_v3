@@ -5,7 +5,9 @@ USE [OCP6StoneWareDB_V3]
 GO
 
 CREATE OR ALTER PROCEDURE spIssues_GetByStatus_ForProductAndVersion(
-	@product_name nvarchar(50), @version numeric(2,1), @status nvarchar(20) = 'Outstanding')
+		@product_name nvarchar(50), 
+		@version numeric(2,1), 
+		@status nvarchar(20) = 'Outstanding')
 AS
 BEGIN
 	SET NOCOUNT ON;

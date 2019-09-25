@@ -5,7 +5,10 @@ USE [OCP6StoneWareDB_V3]
 GO
 
 CREATE OR ALTER PROCEDURE spIssues_GetByStatusKeywordsVersion_ForProduct(
-		@product_name nvarchar(50), @version numeric(2,1), @status nvarchar(50) = 'Outstanding', @keywords nvarchar(MAX))
+		@product_name nvarchar(50), 
+		@version numeric(2,1), 
+		@status nvarchar(50) = 'Outstanding',
+		@keywords nvarchar(MAX))
 AS
 BEGIN
 	SELECT * FROM VWIssueGetAll AS vw
