@@ -1129,7 +1129,7 @@ CREATE OR ALTER PROCEDURE spIssues_GetAllByStatus_Keywords(
 		@keywords nvarchar(MAX))
 AS
 BEGIN
-	SELECT * FROM VWIssueGetAll AS vw
+	SELECT * FROM VWIssues_GetAll AS vw
 		WHERE status = @status
 	AND 
 	(
@@ -1150,7 +1150,7 @@ CREATE OR ALTER PROCEDURE spIssues_GetAllByStatus_KeywordsForProduct(
 		@keywords nvarchar(MAX))
 AS
 BEGIN
-	SELECT * FROM VWIssueGetAll AS vw
+	SELECT * FROM VWIssues_GetAll AS vw
 		WHERE status = @status
 		AND product = @product_name
 	AND 
@@ -1173,7 +1173,7 @@ CREATE OR ALTER PROCEDURE spIssues_GetByStatusKeywordsVersion_ForProduct(
 		@keywords nvarchar(MAX))
 AS
 BEGIN
-	SELECT * FROM VWIssueGetAll AS vw
+	SELECT * FROM VWIssues_GetAll AS vw
 		WHERE status = @status
 		AND product = @product_name
 		AND version = @version
@@ -1204,7 +1204,7 @@ BEGIN
 		SET @end_date = GetDate()
 	END
 
-	SELECT * FROM VWIssueGetAll AS vw
+	SELECT * FROM VWIssues_GetAll AS vw
 		WHERE status = @status
 		AND product = @product_name
 		AND created_at BETWEEN @start_date AND @end_date
@@ -1236,7 +1236,7 @@ BEGIN
 		SET @end_date = GetDate()
 	END
 
-	SELECT * FROM VWIssueGetAll AS vw
+	SELECT * FROM VWIssues_GetAll AS vw
 		WHERE status = @status
 		AND product = @product_name
 		AND version = @version

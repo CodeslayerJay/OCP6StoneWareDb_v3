@@ -2,98 +2,115 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="OCP6StoneWareDb_v3">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items>
-        <ConnectionNode Name="DESKTOP-TJPRJF9\MSSQLSERVER_ADV:DESKTOP-TJPRJF9\jtwil">
-          <Created>2019-09-23T15:31:37.3998216-04:00</Created>
-          <Type>SQL</Type>
-          <Server>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</Server>
-          <UserName />
-          <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
-          <LoginTimeout>30</LoginTimeout>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
-        </ConnectionNode>
-      </Items>
+      <Items />
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="CreateDatabase.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>CreateDatabase.sql</FullPath>
         </FileNode>
         <FileNode Name="DB_SeedProducts.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>DB_SeedProducts.sql</FullPath>
         </FileNode>
+        <FileNode Name="fnSplitList.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fnSplitList.sql</FullPath>
+        </FileNode>
         <FileNode Name="SP_AddIssueToDb.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SP_AddIssueToDb.sql</FullPath>
         </FileNode>
         <FileNode Name="DB_SeedIssues.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>DB_SeedIssues.sql</FullPath>
         </FileNode>
-        <FileNode Name="spIssues_GetAllByStatus.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+        <FileNode Name="spIssues_GetAll.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>spIssues_GetAllByStatus.sql</FullPath>
+          <FullPath>spIssues_GetAll.sql</FullPath>
         </FileNode>
         <FileNode Name="spIssues_GetByDate_ForProductAndVersion.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>spIssues_GetByDate_ForProductAndVersion.sql</FullPath>
         </FileNode>
         <FileNode Name="spIssues_GetByDateForProduct.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>spIssues_GetByDateForProduct.sql</FullPath>
         </FileNode>
         <FileNode Name="spIssues_GetByStatus_ForProductAndVersion.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>spIssues_GetByStatus_ForProductAndVersion.sql</FullPath>
         </FileNode>
         <FileNode Name="spIssues_GetByStatusForProduct.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>spIssues_GetByStatusForProduct.sql</FullPath>
         </FileNode>
         <FileNode Name="Role_CreateDbStoreProcedureOnlyAccess.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Role_CreateDbStoreProcedureOnlyAccess.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery8.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+        <FileNode Name="spIssues_GetAllByStatus_Keywords.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>SQLQuery8.sql</FullPath>
+          <FullPath>spIssues_GetAllByStatus_Keywords.sql</FullPath>
         </FileNode>
-        <FileNode Name="FUNC_Split_List.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+        <FileNode Name="spIssues_GetAllByStatus_KeywordsForProduct.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>FUNC_Split_List.sql</FullPath>
+          <FullPath>spIssues_GetAllByStatus_KeywordsForProduct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spIssues_GetByStatusKeywordsVersion_ForProduct.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spIssues_GetByStatusKeywordsVersion_ForProduct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spIssues_GetByStatusKeywordsDate_ForProduct.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spIssues_GetByStatusKeywordsDate_ForProduct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spIssues_GetByStatusKeywordsDate_ForProductSingleVersion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>spIssues_GetByStatusKeywordsDate_ForProductSingleVersion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
         <FileNode Name="vwIssues_GetAll.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-TJPRJF9\MSSQLSERVER_ADV:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-TJPRJF9\MSSQLSERVER_ADV</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>vwIssues_GetAll.sql</FullPath>
         </FileNode>

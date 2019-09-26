@@ -11,7 +11,7 @@ CREATE OR ALTER PROCEDURE spIssues_GetAllByStatus_Keywords(
 		@keywords nvarchar(MAX))
 AS
 BEGIN
-	SELECT * FROM VWIssueGetAll AS vw
+	SELECT * FROM VWIssues_GetAll AS vw
 		WHERE status = @status
 	AND 
 	(

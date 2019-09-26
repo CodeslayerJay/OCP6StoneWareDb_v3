@@ -17,7 +17,7 @@ BEGIN
 		SET @end_date = GetDate()
 	END
 
-	SELECT * FROM VWIssueGetAll AS vw
+	SELECT * FROM VWIssues_GetAll AS vw
 		WHERE status = @status
 		AND product = @product_name
 		AND created_at BETWEEN @start_date AND @end_date
